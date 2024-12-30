@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oop</title> 
+    <script async src="inheritance.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body><body>
+    <h1>יצירת אלמנטים דינאמיים</h1>
+
+    <label>סוג האלמנט:</label>
+    <input type="text" id="elementType" placeholder="לדוגמה: div">
+    <label>כיתוב:</label>
+    <input type="text" id="elementText" placeholder="לדוגמה: שלום">
+    <button id="createElementButton" onclick="CreateElemnt()">יצירת אלמנט</button>
+
+    <br><br>
+
+    <label>נתיב התמונה:</label>
+    <input type="text" id="imageSrc" placeholder="לדוגמה: images/example.jpg">
+    <label>כיתוב חלופי:</label>
+    <input type="text" id="imageAlt" placeholder="לדוגמה: תמונה לדוגמה">
+    <button id="createImageButton" onclick="CreateImg()">יצירת תמונה</button>
+
+    <br><br>
+
+    <label>רשימת אפשרויות (מופרדות בפסיקים):</label>
+    <input type="text" id="selectOptions" placeholder="לדוגמה: אפשרות1,אפשרות2,אפשרות3">
+    <button id="createSelectButton" onclick="CreateSelect()">יצירת Select</button>
+    <script src="script.js"></script>
+</body>
+</html>
